@@ -1,0 +1,19 @@
+﻿@model IEnumerable<SportsBall.Models.Division>
+
+<h1>This is real</h1>
+
+<h4>@Html.DisplayNameFor(model => model.Name)</h4>
+<ul>
+    @foreach (var listDivision in Model)
+    {
+        <li>@Html.DisplayFor(modelItem => listDivision.Name) |
+            @Html.ActionLink("Edit", "Edit", new { id = listDivision.DivisionId }) |
+            @Html.ActionLink("Details", "Details", new { id = listDivision.DivisionId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = listDivision.DivisionId })
+    </li>
+    }
+
+    <li>
+        @Html.ActionLink("Create New", "Create")
+    </li>
+</ul>

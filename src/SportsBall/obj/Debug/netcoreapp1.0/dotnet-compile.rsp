@@ -1,5 +1,5 @@
---temp-output:c:\users\epicodus\documents\visual studio 2015\Projects\SportsBall\src\SportsBall\obj\Debug\netcoreapp1.0\
---out:c:\users\epicodus\documents\visual studio 2015\Projects\SportsBall\src\SportsBall\bin\Debug\netcoreapp1.0\SportsBall.dll
+--temp-output:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\SportsBall\src\SportsBall\obj\Debug\netcoreapp1.0\
+--out:C:\Users\epicodus\Documents\Visual Studio 2015\Projects\SportsBall\src\SportsBall\bin\Debug\netcoreapp1.0\SportsBall.dll
 --define:DEBUG
 --define:TRACE
 --define:NETCOREAPP1_0
@@ -173,11 +173,12 @@
 --reference:C:\Users\epicodus\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\epicodus\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"c:\users\epicodus\documents\visual studio 2015\Projects\SportsBall\src\SportsBall\obj\Debug\netcoreapp1.0\SportsBalldotnet-compile.deps.json",SportsBall.deps.json
-c:\users\epicodus\documents\visual studio 2015\Projects\SportsBall\src\SportsBall\Program.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\SportsBall\src\SportsBall\Startup.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\SportsBall\src\SportsBall\Controllers\HomeController.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\SportsBall\src\SportsBall\Controllers\TeamsController.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\SportsBall\src\SportsBall\Models\Division.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\SportsBall\src\SportsBall\Models\SportsBallContext.cs
-c:\users\epicodus\documents\visual studio 2015\Projects\SportsBall\src\SportsBall\Models\Team.cs
+--resource:"C:\Users\epicodus\Documents\Visual Studio 2015\Projects\SportsBall\src\SportsBall\obj\Debug\netcoreapp1.0\SportsBalldotnet-compile.deps.json",SportsBall.deps.json
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\SportsBall\src\SportsBall\Program.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\SportsBall\src\SportsBall\Startup.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\SportsBall\src\SportsBall\Controllers\DivisionsController.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\SportsBall\src\SportsBall\Controllers\HomeController.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\SportsBall\src\SportsBall\Controllers\TeamsController.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\SportsBall\src\SportsBall\Models\Division.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\SportsBall\src\SportsBall\Models\SportsBallContext.cs
+C:\Users\epicodus\Documents\Visual Studio 2015\Projects\SportsBall\src\SportsBall\Models\Team.cs

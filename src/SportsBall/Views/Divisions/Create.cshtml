@@ -1,0 +1,30 @@
+﻿@model SportsBall.Models.Division
+
+<html>
+<head>
+    <title>Division - Create</title>
+</head>
+<body>
+    <h2>Create</h2>
+    <hr />
+    <h4>Add a new Division</h4>
+    @using (Html.BeginForm())
+    {
+        @Html.LabelFor(model => model.Name)
+        @Html.TextBoxFor(model => model.Name)
+
+
+        @Html.LabelFor(model => model.Skill)
+        @Html.TextBoxFor(model => model.Skill)
+
+
+        @Html.LabelFor(model => model.Max)
+        @Html.TextBoxFor(model => model.Max)
+
+       
+        <input type="submit" value="Add new Division" />
+    }
+    <p>@Html.ActionLink("Back to list", "Index")</p>
+</body>
+</html>
+

@@ -1,0 +1,22 @@
+﻿@model SportsBall.Models.Division
+
+<html>
+<head>
+    <title>Division - Details</title>
+</head>
+<body>
+    <h2>Details</h2>
+    <hr />
+    @Html.DisplayNameFor(model => model.Name): @Html.DisplayFor(model => model.Name)
+    <p>@Html.DisplayNameFor(model => model.Skill): @Html.DisplayFor(model => model.Skill)</p>
+    <p>@Html.DisplayNameFor(model => model.Max) : @Html.DisplayFor(model => model.Max)</p>
+    <p>@Html.ActionLink("Back to list", "Index")</p>
+    <ul>
+        Teams
+        @foreach (var team in Model.Teams)
+        {
+            <li>@team.Name</li>
+        }
+    </ul>
+</body>
+</html>
